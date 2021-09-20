@@ -1,12 +1,26 @@
 1. Tareas del Scrum Master (SM) – Product Owner(PO) – para el Equipo SCRUM
 
 Tareas Scrum Master:
-A. Gestionar el proceso Scrum.
-B. Eliminar impedimentos.
+A. Se encarga de que todo el equipo aplique el SCRUM.
+B. Soluciona posibles impedimentos que sucedan durante el Sprint.
+C. Ayuda a que las mejoras que salen de la Retroespectiva, se lleven a cabo.
+D. Junto con el equipo de Desarrollo, se actualiza el progreso.
+E. Debe organizar el Sprint Planning.
+F. Debe asistir a todas las ceremonias.
 
 Tareas del Product Owner:
-A. Optimizar y maximizar el valor del producto.
-B. Tomar las decisiones que afectan al producto.
+A. Debe maximizar el Valor entregado y para ello debe conocer el negocio, saber qué quiere construir, ser capaz de crear nuevos elementos que creen valor.
+B. Debe estar seguro de que hay un Product Backlog (un listado de todas las tareas que se van a realizar durante la ejecución de un proyecto). 
+El Product Owner no tiene que escribirlos físicamente, puede delegar que lo hagan otros miembros. Sin embargo, la persona que responderá siempre 
+a terceros, será el Product Owner, por tanto, siempre debe participar en la definición y cuidar que se priorice el máximo Valor al mínimo coste.
+C. Debe liderar el Sprint Planning y el Sprint Review y participar del Sprint Retrospective.
+D. En el Sprint Planning debe definir el Sprint Goal. Además, colaborar con el Dev Team (equipo de desarrollo) a comprender las partes del Product Blacklog
+y estar libre de negociar el alcance del Sprint.
+E. En el Sprint Review, el Product Owner debe demostrar y explicar los elementos del Product Blacklog, comentar su estado y hacer un feedback relacionando 
+el estado del mercado en ese momento.
+F. Debe participar como un miembro más del Scrum Team para observar cómo trabajan los demás miembros del Scrum Team los procesos.
+G. Además, debe conocer el negocio, tener capacidad de decidir, estar dispuesto siempre, saber cómo funciona el desarrollo del software y, sobre todo, 
+ser un buen comunicador.
 
 2. Definición de Scrum Master (SM) – Product Owner(PO) para cada Sprint.
 
