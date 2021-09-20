@@ -1,0 +1,31 @@
+1. Tareas del Scrum Master (SM) – Product Owner(PO) – para el Equipo SCRUM
+
+Tareas Scrum Master:
+A. Gestionar el proceso Scrum.
+B. Eliminar impedimentos.
+
+Tareas del Product Owner:
+A. Optimizar y maximizar el valor del producto.
+B. Tomar las decisiones que afectan al producto.
+
+2. Definición de Scrum Master (SM) – Product Owner(PO) para cada Sprint.
+
+Sprint 1:
+Scrum Master: Cristian Vallejo  
+Product Owner: Alejandra Ruiz
+
+Sprint 2:
+Scrum Master: Daniel Medina
+Product Owner: Rubén Montoya
+
+Sprint 3:
+Scrum Master: Alejandra Ruiz
+Product Owner: Felipe Ruiz
+
+Sprint 4:
+Scrum Master: Rubén Montoya
+Product Owner: Cristian Vallejo
+
+Sprint 5:
+Scrum Master: Felipe Ruiz
+Product Owner: Daniel Medina
