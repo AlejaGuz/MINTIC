@@ -41,5 +41,5 @@ Scrum Master: Rubén Montoya
 Product Owner: Cristian Vallejo
 
 Sprint 5:
-Scrum Master: Felipe Ruiz
+Scrum Master: Felipe Ruiz 3196988145
 Product Owner: Daniel Medina
