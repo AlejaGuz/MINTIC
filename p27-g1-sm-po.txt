@@ -29,7 +29,7 @@ Scrum Master: Cristian Vallejo
 Product Owner: Alejandra Ruiz 3113413993
 
 Sprint 2:
-Scrum Master: Daniel Medina
+Scrum Master: Daniel Medina 3222148016
 Product Owner: Rubén Montoya
 
 Sprint 3:
@@ -42,4 +42,4 @@ Product Owner: Cristian Vallejo
 
 Sprint 5:
 Scrum Master: Felipe Ruiz 3196988145
-Product Owner: Daniel Medina
+Product Owner: Daniel Medina 3222148016
