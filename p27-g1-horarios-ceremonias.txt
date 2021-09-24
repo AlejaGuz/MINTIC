@@ -1,0 +1,28 @@
+Planning Sprint
+Descripción: proceso de organización previo a cada sprint que hace el equipo Scrum. En este se define la meta del sprint y el sprint backlog, y se realiza una breve descripción sobre el resultado que se espera al finalizar el sprint.
+Día de la semana: Viernes
+Hora: 1:30pm - 3:00pm
+Duración: Una hora y media
+
+Daily Scrum (de lunes a jueves)
+Descripción: reunión de corta duración que hace el equipo Scrum al inicio de cada día de trabajo, para evaluar el avance del día en el producto e identificar dificultades.
+Día de la semana: Lunes a Jueves
+Hora: 3:00 - 3:15pm
+Duración: 15 minutos
+
+Revisión del Sprint (formador)
+Descripción: Se realiza al finalizar cada sprint, con el fin de presentar el trabajo a los clientes e interesados y para recibir sugerencias para el trabajo futuro.
+Día de la semana: viernes
+Hora: 1:00 - 1:10pm
+Duración: 10 Minutos
+
+Retrospectiva del Sprint 
+Descripción: 
+Día de la semana: viernes
+Hora: 1:10pm - 1:30pm
+Duración: 20 minutos
+
+Asesoría Tutor
+Día de la semana: Pendiente por asignación de Tutor (Viernes)
+Hora: 3:00 - 3:15pm
+Duración: 15 minutos

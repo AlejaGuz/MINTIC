@@ -25,11 +25,11 @@ ser un buen comunicador.
 2. Definición de Scrum Master (SM) – Product Owner(PO) para cada Sprint.
 
 Sprint 1:
-Scrum Master: Cristian Vallejo  
-Product Owner: Alejandra Ruiz
+Scrum Master: Cristian Vallejo 321 8568291
+Product Owner: Alejandra Ruiz 3113413993
 
 Sprint 2:
-Scrum Master: Daniel Medina
+Scrum Master: Daniel Medina 3222148016
 Product Owner: Rubén Montoya
 
 Sprint 3:
@@ -37,9 +37,9 @@ Scrum Master: Alejandra Ruiz
 Product Owner: Felipe Ruiz
 
 Sprint 4:
-Scrum Master: Rubén Montoya
+Scrum Master: Rubén Montoya 3134459572
 Product Owner: Cristian Vallejo
 
 Sprint 5:
-Scrum Master: Felipe Ruiz
-Product Owner: Daniel Medina
+Scrum Master: Felipe Ruiz 3196988145
+Product Owner: Daniel Medina 3222148016
