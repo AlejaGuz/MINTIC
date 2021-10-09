@@ -1,7 +1,0 @@
-Host ec2-54-204-148-110.compute-1.amazonaws.com
-Database dabk1epnvs3og1
-User nrgouzcohwcbju
-Port 5432
-Password 865eae4959265eca10d9fe928b18cff6986061c02b7641ca52ad650936ded787
-URI postgres://nrgouzcohwcbju:865eae4959265eca10d9fe928b18cff6986061c02b7641ca52ad650936ded787@ec2-54-204-148-110.compute-1.amazonaws.com:5432/dabk1epnvs3og1
-Heroku CLI heroku pg:psql postgresql-dimensional-12217 --app sportclub-db
