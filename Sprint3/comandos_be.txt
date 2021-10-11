@@ -23,5 +23,10 @@ python manage.py runserver
 Instalación de Simple JWT
 pip install djangorestframework-simplejwt
 
+Instalación Postgresql
+pip install psycopg2
 
+Migración Modelo
 
+python manage.py makemigrations sportClubApp
+python manage.py migrate
