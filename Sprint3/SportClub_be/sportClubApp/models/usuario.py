@@ -28,7 +28,7 @@ class UserManager(BaseUserManager):
         
 class Usuario(AbstractBaseUser, PermissionsMixin):
 
-    id_usuario = models.BigAutoField(primary_key=True)
+    id = models.BigAutoField(primary_key=True)
     username = models.CharField('Username', max_length = 15, unique=True)
     password = models.CharField('Password', max_length = 256)
     email = models.EmailField('Email', max_length = 100)
