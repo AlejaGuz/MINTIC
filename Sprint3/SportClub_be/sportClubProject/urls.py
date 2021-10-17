@@ -26,5 +26,8 @@ urlpatterns = [
     path('horario/', views.HorarioCreateView.as_view()),
     path('fusion/', views.CtrActHorCreateView.as_view()),
     path('reserva/', views.ReservaCreateView.as_view()),
+    path('reserva/', views.ReservaDetailView.as_view()),
+    path('reserva/', views.ReservaUpdateView.as_view()),
+    path('reserva/', views.ReservaDeleteView.as_view()),
     
 ]
