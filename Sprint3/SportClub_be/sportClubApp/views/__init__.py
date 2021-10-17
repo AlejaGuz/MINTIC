@@ -4,3 +4,5 @@ from .actividadCreateView import ActividadCreateView
 from .horarioCreateView import HorarioCreateView
 from .ctr_act_horCreateView import CtrActHorCreateView
 from .reservaCreateView import ReservaCreateView
+from .ctr_act_horDetailView import CtrActHorDetailView
+from .ctr_act_horUpdate import CtrActHorUpdateView
