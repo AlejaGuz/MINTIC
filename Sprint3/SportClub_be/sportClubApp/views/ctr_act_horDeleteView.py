@@ -1,5 +1,6 @@
 from django.conf import settings
-from rest_framework import generics, status
+from django.views.generic.base import View
+from rest_framework import generics, status, views
 from rest_framework.response import Response
 from rest_framework_simplejwt.backends import TokenBackend
 from rest_framework.permissions import IsAuthenticated
@@ -21,7 +22,7 @@ class CtrActHorDeleteView(views.APIView):
       stringResponse = {'detail':'Unauthorized Request'}
       return Response(stringResponse, status=status.HTTP_401_UNAUTHORIZED)
 
-    clase= CtrActHor.objects.filter(id=kwargs['pk']).first()
+    clase= CtrActHor.objects.filter(id_clase=kwargs['pk']).first()
     clase.delete()
     stringResponse = {'detail':'Registro eliminado'}
     return Response(stringResponse)
