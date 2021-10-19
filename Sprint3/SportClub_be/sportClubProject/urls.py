@@ -28,4 +28,5 @@ urlpatterns = [
     path('reserva/', views.ReservaCreateView.as_view()),
     path('fusionread/<int:pk>/', views.CtrActHorDetailView.as_view()),
     path('fusionupdate/<int:pk>/', views.CtrActHorUpdateView.as_view()),
+    path('fusiondelete/<int:pk>/', views.CtrActHorDeleteView.as_view()),
 ]

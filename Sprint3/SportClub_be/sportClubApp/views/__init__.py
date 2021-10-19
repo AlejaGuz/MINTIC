@@ -6,3 +6,4 @@ from .ctr_act_horCreateView import CtrActHorCreateView
 from .reservaCreateView import ReservaCreateView
 from .ctr_act_horDetailView import CtrActHorDetailView
 from .ctr_act_horUpdate import CtrActHorUpdateView
+from .ctr_act_horDeleteView import CtrActHorDeleteView
