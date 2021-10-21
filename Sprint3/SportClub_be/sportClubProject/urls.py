@@ -26,5 +26,8 @@ urlpatterns = [
     path('horario/', views.HorarioCreateView.as_view()),
     path('fusion/', views.CtrActHorCreateView.as_view()),
     path('reserva/', views.ReservaCreateView.as_view()),
+    path('actividadread/<int:pk>/', views.ActividadDetailView.as_view()),
+    path('actividadupdate/<int:pk>/', views.ActividadUpdateView.as_view()),
+    path('actividaddelete/<int:pk>/', views.ActividadUpdateView.as_view()),
     
 ]
