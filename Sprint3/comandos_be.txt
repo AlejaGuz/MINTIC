@@ -31,6 +31,11 @@ Migración Modelo
 python manage.py makemigrations sportClubApp
 python manage.py migrate
 
+HEROKU
+heroku login
+git add .
+git commit -am "deployment changes"
+
 Front - END
 npm run serve
 
