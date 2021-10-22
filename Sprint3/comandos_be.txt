@@ -36,6 +36,7 @@ heroku login
 heroku git:remote -a sportclub-be
 git add .
 git commit -am "deployment changes"
+git push heroku master
 
 Front - END
 npm run serve
