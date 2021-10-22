@@ -10,4 +10,6 @@ from .ctr_act_horDeleteView import CtrActHorDeleteView
 from .horarioDeleteView import HorarioDeleteView
 from .horarioDetailView import HorarioDetailView
 from .horarioUpdateView import HorarioUpdateView
+from .ctr_act_horReadAllView import ListaCtrActHorView
+from .actividadDetailView import ActividadDetailView
 
