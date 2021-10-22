@@ -1,0 +1,47 @@
+
+Creación de entorno virtual de python
+python -m venv env
+
+Activación del entorno virtual
+env\Scripts\activate
+
+Instalación de Django
+pip install django
+
+Instalación de Django REST Framework
+pip install djangorestframework
+
+Creación del proyecto
+django-admin startproject sportClubProject
+
+Creación de la aplicación Django
+django-admin startapp sportClubApp
+
+Ejecución del componente (comprobación de correcta configuración)
+python manage.py runserver
+
+Instalación de Simple JWT
+pip install djangorestframework-simplejwt
+
+Instalación Postgresql
+pip install psycopg2
+
+Migración Modelo
+
+python manage.py makemigrations sportClubApp
+python manage.py migrate
+
+HEROKU
+heroku login
+heroku git:remote -a sportclub-be
+git add .
+git commit -am "deployment changes"
+git pull heroku master --allow-unrelated-histories
+git push heroku master
+
+Front - END
+npm run serve
+
+npm install jwt-decode / npm add jwt-decode
+
+npm install express serve-static --save
