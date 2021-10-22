@@ -36,6 +36,7 @@ heroku login
 heroku git:remote -a sportclub-be
 git add .
 git commit -am "deployment changes"
+git pull heroku master --allow-unrelated-histories
 git push heroku master
 
 Front - END
