@@ -16,6 +16,9 @@ Including another URLconf
 from django.urls import path
 from rest_framework_simplejwt.views import (TokenObtainPairView, TokenRefreshView)
 from sportClubApp import views
+from sportClubApp.views.horarioDetailView import HorarioDetailView
+
+
 
 urlpatterns = [
     path('login/', TokenObtainPairView.as_view()),
@@ -26,5 +29,10 @@ urlpatterns = [
     path('horario/', views.HorarioCreateView.as_view()),
     path('fusion/', views.CtrActHorCreateView.as_view()),
     path('reserva/', views.ReservaCreateView.as_view()),
-    
+    path('fusionread/<int:pk>/', views.CtrActHorDetailView.as_view()),
+    path('fusionupdate/<int:pk>/', views.CtrActHorUpdateView.as_view()),
+    path('fusiondelete/<int:pk>/', views.CtrActHorDeleteView.as_view()),
+    path('horariodelete/<int:pk>/', views.HorarioDeleteView.as_view()),
+    path('horariodetail/<int:pk>/',views.HorarioDetailView.as_view()),
+    path('horarioupdate/<int:pk>/',views.HorarioUpdateView.as_view()),
 ]
