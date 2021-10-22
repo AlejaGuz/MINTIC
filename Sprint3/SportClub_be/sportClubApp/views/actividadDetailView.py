@@ -25,3 +25,4 @@ class ActividadDetailView(generics.RetrieveAPIView):
     actividad= Actividad.objects.filter(id_actividad=kwargs['pk']).first()
     serializer = ActividadSerializer(actividad)
     return Response(serializer.data)
+    

@@ -37,4 +37,5 @@ urlpatterns = [
     path('horarioupdate/<int:pk>/',views.HorarioUpdateView.as_view()),
     path('fusionreadall/',views.ListaCtrActHorView.as_view()),
     path('actividadread/<int:pk>/',views.ActividadDetailView.as_view()),
+    
 ]

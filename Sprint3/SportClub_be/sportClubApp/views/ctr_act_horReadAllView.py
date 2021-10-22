@@ -15,3 +15,4 @@ class ListaCtrActHorView(generics.ListAPIView):
     serializer_class = CtrActHorSerializer
     filter_backends = (SearchFilter, OrderingFilter)
     search_fields = ['centro', 'actividad', 'horario']
+    
