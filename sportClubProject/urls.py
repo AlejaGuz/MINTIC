@@ -29,4 +29,9 @@ urlpatterns = [
     path('fusionread/<int:pk>/', views.CtrActHorDetailView.as_view()),
     path('fusionupdate/<int:pk>/', views.CtrActHorUpdateView.as_view()),
     path('fusiondelete/<int:pk>/', views.CtrActHorDeleteView.as_view()),
+    path('horariodelete/<int:pk>/', views.HorarioDeleteView.as_view()),
+    path('horariodetail/<int:pk>/',views.HorarioDetailView.as_view()),
+    path('horarioupdate/<int:pk>/',views.HorarioUpdateView.as_view()),
+    path('fusionreadall/',views.ListaCtrActHorView.as_view()),
+    path('actividadread/<int:pk>/',views.ActividadDetailView.as_view()),
 ]
