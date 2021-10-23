@@ -16,7 +16,7 @@ class CtrActHorSerializer(serializers.ModelSerializer):
         fields = ['id_clase', 'centro','actividad','horario']
     
     def to_representation(self, instance):
-       
+    
         actividad = Actividad.objects.get(id_actividad=instance.actividad.id_actividad)
         horario = Horario.objects.get(id_horario=instance.horario.id_horario)
         return {
