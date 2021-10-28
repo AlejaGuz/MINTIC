@@ -1,5 +1,0 @@
-from .actividadSerializer import ActividadSerializer
-from .ctr_act_horSerializer import CtrActHorSerializer
-from .horarioSerializer import HorarioSerializer
-from .usuarioSerializer import UsuarioSerializer
-from .reservaSerializer import ReservaSerializer
