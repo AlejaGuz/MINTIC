@@ -4,4 +4,4 @@ from rest_framework import serializers
 class HorarioSerializer(serializers.ModelSerializer):
     class Meta:
         model = Horario
-        fields = ['dia', 'hora']
+        fields = ['id_horario','dia', 'hora']

@@ -12,9 +12,9 @@ class CtrActHorCreateView(views.APIView):
   permission_classes = (IsAuthenticated,)
 
   def post(self, request, *args, **kwargs):
-      
-    id_user_body = request.data.pop("id_user")
-    
+    print(request.data) 
+    id_user_body = int(request.data.pop("id_user"))
+     
     token = request.META.get('HTTP_AUTHORIZATION')[7:]
     tokenBackend = TokenBackend(algorithm=settings.SIMPLE_JWT['ALGORITHM'])
     valid_data = tokenBackend.decode(token,verify=False)

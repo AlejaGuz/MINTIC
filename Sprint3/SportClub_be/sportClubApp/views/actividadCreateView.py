@@ -8,12 +8,13 @@ from sportClubApp.serializers import ActividadSerializer
 from sportClubApp.models import Actividad
 
 class ActividadCreateView(views.APIView):
-  queryset = Actividad.objects.all()
-  serializer_class = ActividadSerializer
-  permission_classes = (IsAuthenticated,)
 
   def post(self, request, *args, **kwargs):
-    id_user_body = request.data.pop("id_user")
+
+    permission_classes = (IsAuthenticated,)
+    print(request.data)
+
+    id_user_body = int(request.data.pop("id_user"))
     
     token = request.META.get('HTTP_AUTHORIZATION')[7:]
     tokenBackend = TokenBackend(algorithm=settings.SIMPLE_JWT['ALGORITHM'])
@@ -26,6 +27,12 @@ class ActividadCreateView(views.APIView):
     serializer = ActividadSerializer(data=request.data)
     serializer.is_valid(raise_exception=True)
     serializer.save()
-    stringResponse = {'detail':'Excelente'}
+
+    stringResponse = request.data['nombre']
+    id_act = Actividad.objects.get(nombre=stringResponse).id_actividad
+
+    return Response(id_act,status=status.HTTP_201_CREATED)
+
+    ##stringResponse = {'detail':'Excelente'}
   
-    return Response(stringResponse,status=status.HTTP_201_CREATED)
+    ##return Response(stringResponse,status=status.HTTP_201_CREATED)
